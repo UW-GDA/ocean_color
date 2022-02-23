@@ -1,4 +1,4 @@
-#Project Title: ocean_color
+# Project Title: ocean_color
 
 
 Name(s) of team member 1: Bao Nguyen Quoc
