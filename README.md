@@ -14,7 +14,8 @@ Some introductory background information:
 Problem statement, question(s) and/or objective(s)
 
 Datasets you will use:
-Temperature: 
+Temperature: https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1
+Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V2?hl=en
 
 Tools/packages you’ll use (with links)
 
