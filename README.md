@@ -26,6 +26,11 @@ Biological Argo: https://biogeochemical-argo.org/data-access.php
 
 ## Tools/packages you’ll use (with links): 
 Rasterio, Xarray, Scipy, Pandas, Numpy 
+https://numpy.org
+https://docs.xarray.dev/en/stable/
+https://scipy-cookbook.readthedocs.io
+https://rasterio.readthedocs.io/en/latest/
+https://pandas.pydata.org
 
 ## Planned methodology/approach: 
 Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
