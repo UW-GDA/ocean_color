@@ -3,12 +3,12 @@
 
 Name(s) of team member 1: Bao Nguyen Quoc
 
-Name(s) of team member 1: Manjaree Binjolkar
+Name(s) of team member 1: Manjaree 
 
 
 ## Summary: 
 Using ocean surface color data to identify the area that algae tends to grow.
-I would like to look into the area on the ocean surface that has a good condition for algae to grow. Algae requires nutrients such as nitrogen, phosphorus, trace elements, and warm temperature to thrive. By using the Landsat data, we can track chlorophyll A, an indicator for algae growth. From this project, I hope to identify the good location in the ocean that has nutrient and good temperature where we can grow kelp for carbon capture. 
+We would like to look into the area on the ocean surface that has a good condition for algae to grow. Algae requires nutrients such as nitrogen, phosphorus, trace elements, and warm temperature to thrive. By using the Landsat data, we can track chlorophyll A, an indicator for algae growth. From this project, we hope to identify the good location in the ocean that has nutrient and good temperature where we can grow kelp for carbon capture. 
 
 
 ## Some introductory background information: 
@@ -25,13 +25,13 @@ Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GC
 Biological Argo: https://biogeochemical-argo.org/data-access.php
 
 ## Tools/packages you’ll use (with links): 
-Raster time series
+Rasterio, Xarray, Scipy, Pandas, Numpy 
 
 ## Planned methodology/approach: 
-Zoom in the coast of Washington state where we can optimize the code.
+Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
 
 ## Expected outcomes: 
-Generate the time series for temperature and nutrients that corresponding to the growth of algae (chlorophyll variable).
+Generate the time series for temperature and nutrients that correspond to the growth of algae (chlorophyll variable). Find the most important factor affecting algae growth using regression analysis.
 
 ## Any other relevant information, images/tables, references, etc.
 
