@@ -25,12 +25,11 @@ Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GC
 Biological Argo: https://biogeochemical-argo.org/data-access.php
 
 ## Tools/packages you’ll use (with links): 
-Rasterio, Xarray, Scipy, Pandas, Numpy 
-https://numpy.org
-https://docs.xarray.dev/en/stable/
-https://scipy-cookbook.readthedocs.io
-https://rasterio.readthedocs.io/en/latest/
-https://pandas.pydata.org
+Rasterio: https://rasterio.readthedocs.io/en/latest/
+Xarray: https://docs.xarray.dev/en/stable/
+Scipy: https://scipy-cookbook.readthedocs.io
+Pandas: https://pandas.pydata.org
+Numpy: https://numpy.org
 
 ## Planned methodology/approach: 
 Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
