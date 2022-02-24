@@ -15,7 +15,14 @@ We would like to look into the area on the ocean surface that has a good conditi
 Carbon dioxide emission is one of the main reason that cause climate change. Capturing carbon dioxide by kelp is becoming one of the method to lower greenhouse gas and fight climate change. Ocean surface is vast and unexploited for carbon capture purpose. We would like to identify which part of the ocean is suitable for biological growth and thus can allow us to grow kelp. For this purpose, algae could be used as a good indicator because the growth condition of algae is similar to kelp. Algae likes to growth at the high temperature with high nitrate concentration. Therefore, we will use the data set from Argo for nitrate, NOAA for temperature and chlorophyll. We aim to plot the changes of these variable over the seasons and investigate the correlation between these variable.
 
 ## Problem statement, question(s) and/or objective(s): 
-Which variable is more important to algae growth (temperature or nutrient)? What is the limitation factor for algae growth? What is the distribution of nutrient and temperature across the ocean and how it corresponds to algae?
+### Problem statement
+Ocean is a big open surface and its properties changes with time within the year, depending on the ocean current, the amount of heat received from the sun (which is influenced by globe’s tilt). Therefore, the suitable area for growing kelp might have seasonal change accordingly. As a result, we will need to look into time series to make a precise prediction.
+### Research question
+Which variable is more important to algae growth (temperature or nutrient)? 
+
+What is the limitation factor for algae growth? 
+
+What is the distribution of nutrient and temperature across the ocean and how it corresponds to algae?
 
 ## Datasets you will use:
 Temperature: https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1 
