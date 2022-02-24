@@ -26,9 +26,13 @@ Biological Argo: https://biogeochemical-argo.org/data-access.php
 
 ## Tools/packages you’ll use (with links): 
 Rasterio: https://rasterio.readthedocs.io/en/latest/
+
 Xarray: https://docs.xarray.dev/en/stable/
+
 Scipy: https://scipy-cookbook.readthedocs.io
+
 Pandas: https://pandas.pydata.org
+
 Numpy: https://numpy.org
 
 ## Planned methodology/approach: 
