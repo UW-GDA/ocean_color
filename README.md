@@ -49,7 +49,7 @@ Our approach is to find any visible changes (raster images - Rasterio, Xarray) o
 Generate the time series for temperature and nutrients that correspond to the growth of algae (chlorophyll variable). Find the most important factor affecting algae growth using regression analysis.
 
 ## Any other relevant information, images/tables, references, etc.
-https://github.com/google/earthengine-api
+API to get the datasets: https://github.com/google/earthengine-api
 
 ## References
 Argo (2020). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC) – Snapshot of Argo GDAC of August 2020. SEANOE. https://doi.org/10.17882/42182#76230
