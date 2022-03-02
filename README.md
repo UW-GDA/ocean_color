@@ -50,6 +50,7 @@ Generate the time series for temperature and nutrients that correspond to the gr
 
 ## Any other relevant information, images/tables, references, etc.
 API to get the datasets: https://github.com/google/earthengine-api
+Manjaree_token for ee: 4/1AX4XfWiTjD7qVgwMcvb8Q3c-fW-S4LQf_mGekg4xeYL-n2FmjBKyhgx6Iwg
 
 ## References
 Argo (2020). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC) – Snapshot of Argo GDAC of August 2020. SEANOE. https://doi.org/10.17882/42182#76230
