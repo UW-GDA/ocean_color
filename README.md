@@ -27,7 +27,11 @@ What is the distribution of nutrient and temperature across the ocean and how it
 ## Datasets you will use:
 Temperature: https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1 
 
+Temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview
+
 Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V2?hl=en
+
+Ocean colour: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-ocean-colour?tab=overview
 
 Biological Argo: https://biogeochemical-argo.org/data-access.php
 
