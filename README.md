@@ -37,6 +37,8 @@ Ocean colour: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-ocean
 
 Biological Argo: https://biogeochemical-argo.org/data-access.php
 
+Data on Zenodo: https://zenodo.org/record/6348109#.Yi2AvBDMK3I
+
 ## Tools/packages you’ll use (with links): 
 Rasterio: https://rasterio.readthedocs.io/en/latest/
 
