@@ -25,35 +25,44 @@ What is the limitation factor for algae growth?
 What is the distribution of nutrient and temperature across the ocean and how it corresponds to algae?
 
 ## Datasets you will use:
+We first attempted to work with google earth data, but we couldn't manage to download them.
+Google Earth link:
+
+Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V2?hl=en
+
 Temperature: https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1 
+
+We then decided to work with ERA5 data which offers Xarray data type:
 
 Sea surface temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview
 
 Surface air temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/ecv-for-climate-change?tab=overview
 
-Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GCOM-C_L3_OCEAN_CHLA_V2?hl=en
-
 Ocean colour: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-ocean-colour?tab=overview
 
-Biological Argo: https://biogeochemical-argo.org/data-access.php
+For the Sea surface and air temperature, we can easily retrieve the monthly average data for year 2020.
+However for the ocean colour, we had to download the data at noon for the first day of each month in 2020. We then combine those 12 Xarray files into 1 file and extracted only chlorophyllA data. Data was then exported into a Xarray file that is stored in Zenodo.
 
 Data on Zenodo: https://zenodo.org/record/6348109#.Yi2AvBDMK3I
 
-## Tools/packages you’ll use (with links): 
+We attempted to download nitrate data from Biogeochemical Argo, but we were not able to download them.
+
+Biogeochemical Argo: https://biogeochemical-argo.org/data-access.php
+
+## Tools/packages you use (with links): 
 Rasterio: https://rasterio.readthedocs.io/en/latest/
 
 Xarray: https://docs.xarray.dev/en/stable/
-
-Scipy: https://scipy-cookbook.readthedocs.io
 
 Pandas: https://pandas.pydata.org
 
 Numpy: https://numpy.org
 
+
 ## Planned methodology/approach: 
 Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
 
-## Expected outcomes: 
+## Outcomes: 
 Generate the time series for temperature and nutrients that correspond to the growth of algae (chlorophyll variable). Find the most important factor affecting algae growth using regression analysis.
 
 ## Any other relevant information, images/tables, references, etc.
