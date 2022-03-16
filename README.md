@@ -66,9 +66,11 @@ Our approach is to find any visible changes (raster images - Rasterio, Xarray) o
 Generate the time series for temperature and nutrients that correspond to the growth of algae (chlorophyll variable). Find the most important factor affecting algae growth using regression analysis.
 Following is the time series for the chlorophyll a which is representative for algae growth.
 
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Time_series_chlorophyll_a_coastline_added.png)
+
+We were not able to make each subplot bigger when using the coastline so it's hard to see the trend, so we had to present the chlorophyll a without the coast line as bellow:
+
 ![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Time_series_chlorophyll_a.png)
-
-
 
 ## Any other relevant information, images/tables, references, etc.
 API to get the datasets: https://github.com/google/earthengine-api
