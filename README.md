@@ -32,7 +32,7 @@ Ocean color: https://developers.google.com/earth-engine/datasets/catalog/JAXA_GC
 
 Temperature: https://developers.google.com/earth-engine/datasets/catalog/NOAA_CDR_OISST_V2_1 
 
-We then decided to work with ERA5 data which offers Xarray data type:
+We then decided to work with ERA5 data which offers Xarray data type, we only extract and work with the data from 2020 for speed and limited time:
 
 Sea surface temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview
 
@@ -71,6 +71,23 @@ Following is the time series for the chlorophyll a which is representative for a
 We were not able to make each subplot bigger when using the coastline so it's hard to see the trend, so we had to present the chlorophyll a without the coast line as bellow:
 
 ![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Time_series_chlorophyll_a.png)
+
+We can see algae were abundant in the Anartica for 6 months from November to April, while Arctic has high concentration of alage from May to October of 2020 algae and totally lacked of algae during spring and winter.
+
+
+Since Arctic has a high concentration of algae, we'll zoom in this area to study the affect of temperature on the algae's growth.
+We found a weak correlation between algae and sea surface temperature for arctic.
+
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Artic_Chlorophyll_surface_temp.svg)
+
+However, we found a strong correlation between air temperature and algae, which is a bit confusing because how algae lived in water was impacted by the air temperature.
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Corr_air_chlorA.svg)
+
+We then think the air temperature was driven by the sun, which is why we looked into the solar radiation as belows:
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Solar_radiation.svg)
+
+The location when solar radiation was strong within the year is coincide with the location where algae was blooming.
+We further found that 
 
 ## Any other relevant information, images/tables, references, etc.
 API to get the datasets: https://github.com/google/earthengine-api
