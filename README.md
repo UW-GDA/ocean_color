@@ -118,6 +118,14 @@ https://euroargodev.github.io/argoonlineschool/Lessons/L03_UsingArgoData/Chapter
 
 https://stackoverflow.com/questions/30946476/combine-multiple-netcdf-files-into-timeseries-multidimensional-array-python
 
+https://argo.ucsd.edu/science/argo-and-the-modeling-community/
+
+http://opendap.ccst.inpe.br/Observations/ARGO/tmp/netCDF4-0.9.8/docs/netCDF4.MFDataset-class.html
+
+http://www.ifremer.fr/erddap/info/index.html?page=1&itemsPerPage=1000
+
+http://www.ifremer.fr/erddap/tabledap/ArgoFloats.graph
+
 ## References
 Argo (2020). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC) – Snapshot of Argo GDAC of August 2020. SEANOE. https://doi.org/10.17882/42182#76230
 
