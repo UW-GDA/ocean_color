@@ -94,8 +94,8 @@ We further found that the solar radiation has a strong correlation with air temp
 ![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Solar_vs_temperature%20(2).svg)
 
 However, we saw a very low correlation between solar radiation and chlorophyll a.
-![alt text](
 
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Correlation_Solar_chlorA.svg)
 
 This made us think there's probably a lag between solar radiation and algae's growth, probably when the sun shine to Arctic the air temperature take time to warm up and thus the iceberg will start melting and clear up the path for solar radiation to penetrate through water. Another potential explaination is that when the glacier melt, it might feed the nutrient for the algae to grow which is called as glacier silt effect. Either of these hypothesis could be checked with looking into the glacier data and Biological Argo which can be considered as a future research.
 
