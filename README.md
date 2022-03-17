@@ -58,6 +58,12 @@ Pandas: https://pandas.pydata.org
 
 Numpy: https://numpy.org
 
+Cartopy: https://github.com/SciTools/cartopy
+
+Geopandas: https://geopandas.org/en/stable/about.html
+
+Matplotlib: https://matplotlib.org
+
 
 ## Planned methodology/approach: 
 Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
