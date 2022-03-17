@@ -36,9 +36,12 @@ We then decided to work with ERA5 data which offers Xarray data type, we only ex
 
 Sea surface temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview
 
-Surface air temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/ecv-for-climate-change?tab=overview
-
 Ocean colour: https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-ocean-colour?tab=overview
+
+The ocean color files were downloaded as a Zip file, we unzipped them, then combine them into one file and extract only chlorophyll a using the Combine_nc_files.ipynb file.
+
+The surface air temperature was obtained from lab 9 which was originally acquired from:
+Surface air temperature: https://cds.climate.copernicus.eu/cdsapp#!/dataset/ecv-for-climate-change?tab=overview
 
 For the Sea surface and air temperature, we can easily retrieve the monthly average data for year 2020.
 However for the ocean colour, we had to download the data at noon for the first day of each month in 2020. We then combine those 12 Xarray files into 1 file and extracted only chlorophyllA data. Data was then exported into a Xarray file that is stored in Zenodo.
@@ -69,6 +72,8 @@ Matplotlib: https://matplotlib.org
 Our approach is to find any visible changes (raster images - Rasterio, Xarray) over the years for alage growth, temperature and nutrients and use regression analysis (Numpy, Scipy, Pandas) to find out the most important factor, maybe try to predict the changes for this year. Initially we will zoom in the coast of Washington state, run our code and then expand to the whole world.
 
 ## Outcomes: 
+The following result was done by running the Main_notebook.ipynb file:
+
 Generate the time series for temperature and nutrients that correspond to the growth of algae (chlorophyll variable). Find the most important factor affecting algae growth using regression analysis.
 Following is the time series for the chlorophyll a which is representative for algae growth.
 
