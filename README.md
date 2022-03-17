@@ -112,7 +112,11 @@ This made us think there's probably a lag between solar radiation and algae's gr
 ## Any other relevant information, images/tables, references, etc.
 API to get the datasets: https://github.com/google/earthengine-api
 
-Manjaree_token for ee: 4/1AX4XfWiTjD7qVgwMcvb8Q3c-fW-S4LQf_mGekg4xeYL-n2FmjBKyhgx6Iwg
+https://archimer.ifremer.fr/doc/00645/75674/76575.pdf
+
+https://euroargodev.github.io/argoonlineschool/Lessons/L03_UsingArgoData/Chapter24_ArgoDatabyFloat_ArgoPy.html
+
+https://stackoverflow.com/questions/30946476/combine-multiple-netcdf-files-into-timeseries-multidimensional-array-python
 
 ## References
 Argo (2020). Argo float data and metadata from Global Data Assembly Centre (Argo GDAC) – Snapshot of Argo GDAC of August 2020. SEANOE. https://doi.org/10.17882/42182#76230
