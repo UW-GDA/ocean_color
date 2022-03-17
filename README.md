@@ -75,7 +75,17 @@ We were not able to make each subplot bigger when using the coastline so it's ha
 We can see algae were abundant in the Anartica for 6 months from November to April, while Arctic has high concentration of alage from May to October of 2020 algae and totally lacked of algae during spring and winter.
 
 
-Since Arctic has a high concentration of algae, we'll zoom in this area to study the affect of temperature on the algae's growth.
+Since Arctic has a high concentration of algae, we'll zoom in this area to study the affect of temperature on the algae's growth. To simplify the analysis, we used the mean value of chlorophyll a, temperature, and solar radiation in each region of globe as following:
+
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Mean_chlorophyll_a.svg)
+
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Mean_sea_surface_temperature.svg)
+
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Mean_surface_air_temperature%20(1).svg)
+
+![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Mean_solar_radiation.svg)
+
+
 We found a weak correlation between algae and sea surface temperature for arctic.
 
 ![alt text](https://github.com/UW-GDA/ocean_color/blob/main/Images/Artic_Chlorophyll_surface_temp.svg)
