@@ -120,6 +120,15 @@ However, we saw a very low correlation between solar radiation and chlorophyll a
 
 This made us think there's probably a lag between solar radiation and algae's growth, probably when the sun shine to Arctic the air temperature take time to warm up and thus the iceberg will start melting and clear up the path for solar radiation to penetrate through water. Another potential explaination is that when the glacier melt, it might feed the nutrient for the algae to grow which is called as glacier silt effect. Either of these hypothesis could be checked with looking into the glacier data and Biological Argo which can be considered as a future research.
 
+
+## Future Work
+Find a way to combine large number of net cdf files.
+
+Try repeating the same process for different years (including nitrate data) and generate a timeseries.
+
+We realised a lot of other variables like mixing, turbulence play an important role in transporting the nutrients, we could find relationships between these factors and alage growth.
+
+
 ## Any other relevant information, images/tables, references, etc.
 API to get the datasets: https://github.com/google/earthengine-api
 
